@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://lixiao90s.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lixiao90s.github.io/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2025-03-11T23:48:19+08:00</updated><id>https://lixiao90s.github.io/feed.xml</id><title type="html">晓的博客</title><subtitle>记录学习 工作。</subtitle><entry><title type="html">欢迎来到我的博客</title><link href="https://lixiao90s.github.io/posts/welcome/" rel="alternate" type="text/html" title="欢迎来到我的博客" /><published>2024-03-11T12:00:00+08:00</published><updated>2024-03-11T12:00:00+08:00</updated><id>https://lixiao90s.github.io/posts/welcome</id><content type="html" xml:base="https://lixiao90s.github.io/posts/welcome/"><![CDATA[<h2 id="欢迎">欢迎</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2025-03-12T00:22:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">晓的博客</title><subtitle>记录学习 工作。</subtitle><entry><title type="html">欢迎来到我的博客</title><link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="欢迎来到我的博客" /><published>2024-03-11T12:00:00+08:00</published><updated>2024-03-11T12:00:00+08:00</updated><id>http://localhost:4000/posts/welcome</id><content type="html" xml:base="http://localhost:4000/posts/welcome/"><![CDATA[<h2 id="欢迎">欢迎</h2>
 
 <p>欢迎来到我的技术博客！这里将会分享各种编程技术和经验。</p>
 
@@ -25,7 +25,7 @@
   <li>新技术探索</li>
 </ol>
 
-<p>敬请期待！</p>]]></content><author><name></name></author><category term="公告" /><category term="博客" /><category term="欢迎" /><summary type="html"><![CDATA[欢迎]]></summary></entry><entry><title type="html">java - 基础知识</title><link href="https://lixiao90s.github.io/posts/thread1/" rel="alternate" type="text/html" title="java - 基础知识" /><published>2021-10-08T09:36:00+08:00</published><updated>2021-10-08T09:36:00+08:00</updated><id>https://lixiao90s.github.io/posts/thread1</id><content type="html" xml:base="https://lixiao90s.github.io/posts/thread1/"><![CDATA[<h2 id="内存结构">内存结构</h2>
+<p>敬请期待！</p>]]></content><author><name></name></author><category term="公告" /><category term="博客" /><category term="欢迎" /><summary type="html"><![CDATA[欢迎]]></summary></entry><entry><title type="html">java - 基础知识</title><link href="http://localhost:4000/posts/thread1/" rel="alternate" type="text/html" title="java - 基础知识" /><published>2021-10-08T09:36:00+08:00</published><updated>2021-10-08T09:36:00+08:00</updated><id>http://localhost:4000/posts/thread1</id><content type="html" xml:base="http://localhost:4000/posts/thread1/"><![CDATA[<h2 id="内存结构">内存结构</h2>
 <ul>
   <li>栈 存放局部变量</li>
   <li>
@@ -211,7 +211,7 @@
       <li>开发中，由于运行时异常比较常见，所以我们通常就不针对运行时编译try-catch-finally</li>
     </ul>
   </li>
-</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="java" /><summary type="html"><![CDATA[内存结构 栈 存放局部变量 堆 存放对象，数组]]></summary></entry><entry><title type="html">java - 设计模式-原型模式</title><link href="https://lixiao90s.github.io/posts/designpattern4/" rel="alternate" type="text/html" title="java - 设计模式-原型模式" /><published>2021-01-08T09:36:00+08:00</published><updated>2021-01-08T09:36:00+08:00</updated><id>https://lixiao90s.github.io/posts/designpattern4</id><content type="html" xml:base="https://lixiao90s.github.io/posts/designpattern4/"><![CDATA[<h2 id="原型模式prototype">原型模式（ProtoType）</h2>
+</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="java" /><summary type="html"><![CDATA[内存结构 栈 存放局部变量 堆 存放对象，数组]]></summary></entry><entry><title type="html">java - 设计模式-原型模式</title><link href="http://localhost:4000/posts/designpattern4/" rel="alternate" type="text/html" title="java - 设计模式-原型模式" /><published>2021-01-08T09:36:00+08:00</published><updated>2021-01-08T09:36:00+08:00</updated><id>http://localhost:4000/posts/designpattern4</id><content type="html" xml:base="http://localhost:4000/posts/designpattern4/"><![CDATA[<h2 id="原型模式prototype">原型模式（ProtoType）</h2>
 
 <ul>
   <li>用原型实例指定创建对象的种类，并且通过拷贝这些原型，创建新的对象</li>
@@ -375,7 +375,7 @@ id:1 protoType:603742814</p>
 <ul>
   <li>重写 clone 方法来实现深拷贝</li>
   <li>对象序列化实现深拷贝</li>
-</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="原型模式" /><summary type="html"><![CDATA[原型模式（ProtoType）]]></summary></entry><entry><title type="html">java - 类加载过程</title><link href="https://lixiao90s.github.io/posts/java1/" rel="alternate" type="text/html" title="java - 类加载过程" /><published>2021-01-03T09:36:00+08:00</published><updated>2021-01-03T09:36:00+08:00</updated><id>https://lixiao90s.github.io/posts/java1</id><content type="html" xml:base="https://lixiao90s.github.io/posts/java1/"><![CDATA[<h2 id="类加载过程">类加载过程</h2>
+</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="原型模式" /><summary type="html"><![CDATA[原型模式（ProtoType）]]></summary></entry><entry><title type="html">java - 类加载过程</title><link href="http://localhost:4000/posts/java1/" rel="alternate" type="text/html" title="java - 类加载过程" /><published>2021-01-03T09:36:00+08:00</published><updated>2021-01-03T09:36:00+08:00</updated><id>http://localhost:4000/posts/java1</id><content type="html" xml:base="http://localhost:4000/posts/java1/"><![CDATA[<h2 id="类加载过程">类加载过程</h2>
 
 <h3 id="初始化">初始化</h3>
 
@@ -424,7 +424,7 @@ id:1 protoType:603742814</p>
   <li>子类如果重写了父类的方法，通过子类对象调用的一定是子类重写过的代码</li>
   <li>非静态方法默认的调用对象时 this</li>
   <li>this 堆在在构造器或者说&lt; init &gt;方法中就是正在创建的队形</li>
-</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="类加载过程" /><summary type="html"><![CDATA[类加载过程]]></summary></entry><entry><title type="html">设计模式 - 单例</title><link href="https://lixiao90s.github.io/posts/designpattern3/" rel="alternate" type="text/html" title="设计模式 - 单例" /><published>2020-12-20T09:36:00+08:00</published><updated>2020-12-20T09:36:00+08:00</updated><id>https://lixiao90s.github.io/posts/designpattern3</id><content type="html" xml:base="https://lixiao90s.github.io/posts/designpattern3/"><![CDATA[<h2 id="单例模式">单例模式</h2>
+</ul>]]></content><author><name>晓</name></author><category term="java" /><category term="类加载过程" /><summary type="html"><![CDATA[类加载过程]]></summary></entry><entry><title type="html">设计模式 - 单例</title><link href="http://localhost:4000/posts/designpattern3/" rel="alternate" type="text/html" title="设计模式 - 单例" /><published>2020-12-20T09:36:00+08:00</published><updated>2020-12-20T09:36:00+08:00</updated><id>http://localhost:4000/posts/designpattern3</id><content type="html" xml:base="http://localhost:4000/posts/designpattern3/"><![CDATA[<h2 id="单例模式">单例模式</h2>
 
 <p>采取一定的方法保证在整个软件系统中，某个类只能存在一个对象实例，
 并且该类只提供一个取得其对象实例的方法（静态方法）</p>
@@ -728,7 +728,7 @@ id:1 protoType:603742814</p>
   <li>当想使用一个实例时，只能用 getInstance，不能 new</li>
   <li>单例模式使用的场景：需要频繁的进行创建和销毁的对象，创建对象时耗时过多或耗费资源过多（重量级对象），但又经常用到的对象
 工具类对象，频繁访问数据库或文件的对象（比如数据源，session 工厂等）</li>
-</ul>]]></content><author><name>晓</name></author><category term="设计模式" /><category term="单例" /><summary type="html"><![CDATA[单例模式]]></summary></entry><entry><title type="html">设计模式 - 设计模式的原则</title><link href="https://lixiao90s.github.io/posts/designpattern2/" rel="alternate" type="text/html" title="设计模式 - 设计模式的原则" /><published>2020-12-06T09:36:00+08:00</published><updated>2020-12-06T09:36:00+08:00</updated><id>https://lixiao90s.github.io/posts/designpattern2</id><content type="html" xml:base="https://lixiao90s.github.io/posts/designpattern2/"><![CDATA[<h2 id="七大原则">七大原则</h2>
+</ul>]]></content><author><name>晓</name></author><category term="设计模式" /><category term="单例" /><summary type="html"><![CDATA[单例模式]]></summary></entry><entry><title type="html">设计模式 - 设计模式的原则</title><link href="http://localhost:4000/posts/designpattern2/" rel="alternate" type="text/html" title="设计模式 - 设计模式的原则" /><published>2020-12-06T09:36:00+08:00</published><updated>2020-12-06T09:36:00+08:00</updated><id>http://localhost:4000/posts/designpattern2</id><content type="html" xml:base="http://localhost:4000/posts/designpattern2/"><![CDATA[<h2 id="七大原则">七大原则</h2>
 
 <h3 id="单一职责原则">单一职责原则</h3>
 
@@ -779,7 +779,7 @@ id:1 protoType:603742814</p>
   <li>(3) 当前对象的成员对象；</li>
   <li>(4) 如果当前对象的成员对象是一个集合，那么集合中的元素也都是朋友；</li>
   <li>(5) 当前对象所创建的对象。</li>
-</ul>]]></content><author><name>晓</name></author><category term="设计模式" /><category term="设计模式的原则" /><summary type="html"><![CDATA[七大原则]]></summary></entry><entry><title type="html">Akka 入门-Actor</title><link href="https://lixiao90s.github.io/posts/akka1/" rel="alternate" type="text/html" title="Akka 入门-Actor" /><published>2020-10-17T00:16:00+08:00</published><updated>2020-10-17T00:16:00+08:00</updated><id>https://lixiao90s.github.io/posts/akka1</id><content type="html" xml:base="https://lixiao90s.github.io/posts/akka1/"><![CDATA[<h2 id="模块">模块</h2>
+</ul>]]></content><author><name>晓</name></author><category term="设计模式" /><category term="设计模式的原则" /><summary type="html"><![CDATA[七大原则]]></summary></entry><entry><title type="html">Akka 入门-Actor</title><link href="http://localhost:4000/posts/akka1/" rel="alternate" type="text/html" title="Akka 入门-Actor" /><published>2020-10-17T00:16:00+08:00</published><updated>2020-10-17T00:16:00+08:00</updated><id>http://localhost:4000/posts/akka1</id><content type="html" xml:base="http://localhost:4000/posts/akka1/"><![CDATA[<h2 id="模块">模块</h2>
 
 <p>AKKA 是调度模块化的，它由许多拥有不同特性的 JAR 组成。</p>
 
@@ -858,7 +858,7 @@ postStop()会在 actor 将要被关闭前被调用，在它之后，actor 不会
 
 <p>角色最后一个功能是处理子角色的故障。故障处理对于用户来说是透明的，对于发生的故障 Akka 都会自动的通过对应策略处理（监管和监测章节介绍）。 因为这些策略是构成角色系统的基础，所以一旦角色被创建那么这些故障处理策略将不可改变。
 由于每个角色都只有一类故障处理策略，这也就意味着不同的子角色将会应用不同的策略。角色根据子角色所使用的故障处理策略将它们分组。根据任务被切分的子任务性质系统会不断的重复这个分组过程。一旦角色终止，如失败后无法重启，自己停止或者被监督者停止，那么它将释放它占有的所有资源，并将它信箱中没处理的消息发送到“死信件信箱”里，然后“死信件信箱”将会把他们以 <strong>DeadLetters</strong> 的形式传递给 EventStream. Actor 引用中的信箱将会被一个系统信箱所取代，然后将所有消息以 <strong>DeadLetters</strong> 的形式转发给 EventStream。虽然系统会尽最大努力来实现该消息传递，但是我们不能依赖它来实现“有保证的传递”。
-为什么不选择悄悄的将所有消息倾倒出来，是基于我们下面的测试结果考虑：我们在事件总线（BUS）上注册了测试事件监听器(TestEventListener)。这里事件总线即死信件被发送到的地方。该监听器将会对收到的每条死信件记录一条警告日志——这个可以帮助我们更快的检测失败。所以我们有理由相信这个特征还将可以应用于其他目的。</p>]]></content><author><name>晓</name></author><category term="框架" /><category term="akka" /><category term="actor" /><summary type="html"><![CDATA[模块]]></summary></entry><entry><title type="html">常用算法 一</title><link href="https://lixiao90s.github.io/posts/datastructure11/" rel="alternate" type="text/html" title="常用算法 一" /><published>2020-07-12T14:16:00+08:00</published><updated>2020-07-12T14:16:00+08:00</updated><id>https://lixiao90s.github.io/posts/datastructure11</id><content type="html" xml:base="https://lixiao90s.github.io/posts/datastructure11/"><![CDATA[<h2 id="常用算法">常用算法</h2>
+为什么不选择悄悄的将所有消息倾倒出来，是基于我们下面的测试结果考虑：我们在事件总线（BUS）上注册了测试事件监听器(TestEventListener)。这里事件总线即死信件被发送到的地方。该监听器将会对收到的每条死信件记录一条警告日志——这个可以帮助我们更快的检测失败。所以我们有理由相信这个特征还将可以应用于其他目的。</p>]]></content><author><name>晓</name></author><category term="框架" /><category term="akka" /><category term="actor" /><summary type="html"><![CDATA[模块]]></summary></entry><entry><title type="html">常用算法 一</title><link href="http://localhost:4000/posts/datastructure11/" rel="alternate" type="text/html" title="常用算法 一" /><published>2020-07-12T14:16:00+08:00</published><updated>2020-07-12T14:16:00+08:00</updated><id>http://localhost:4000/posts/datastructure11</id><content type="html" xml:base="http://localhost:4000/posts/datastructure11/"><![CDATA[<h2 id="常用算法">常用算法</h2>
 
 <h3 id="非递归二分查找实现">非递归二分查找实现</h3>
 
@@ -1002,7 +1002,7 @@ postStop()会在 actor 将要被关闭前被调用，在它之后，actor 不会
 
 <span class="o">}</span>
 
-</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>晓</name></author><category term="数据结构与算法" /><category term="java" /><summary type="html"><![CDATA[常用算法]]></summary></entry><entry><title type="html">常用算法 一</title><link href="https://lixiao90s.github.io/posts/algorithm1/" rel="alternate" type="text/html" title="常用算法 一" /><published>2020-07-10T14:16:00+08:00</published><updated>2020-07-10T14:16:00+08:00</updated><id>https://lixiao90s.github.io/posts/algorithm1</id><content type="html" xml:base="https://lixiao90s.github.io/posts/algorithm1/"><![CDATA[<h2 id="常用算法">常用算法</h2>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>晓</name></author><category term="数据结构与算法" /><category term="java" /><summary type="html"><![CDATA[常用算法]]></summary></entry><entry><title type="html">常用算法 一</title><link href="http://localhost:4000/posts/algorithm1/" rel="alternate" type="text/html" title="常用算法 一" /><published>2020-07-10T14:16:00+08:00</published><updated>2020-07-10T14:16:00+08:00</updated><id>http://localhost:4000/posts/algorithm1</id><content type="html" xml:base="http://localhost:4000/posts/algorithm1/"><![CDATA[<h2 id="常用算法">常用算法</h2>
 
 <h3 id="非递归二分查找实现">非递归二分查找实现</h3>
 
@@ -1159,7 +1159,7 @@ postStop()会在 actor 将要被关闭前被调用，在它之后，actor 不会
   <li>动态规划可以通过填表方式来逐步推进，得到最优解。</li>
 </ul>
 
-<h4 id="背包问题">背包问题</h4>]]></content><author><name>晓</name></author><category term="数据结构与算法" /><category term="java" /><summary type="html"><![CDATA[常用算法]]></summary></entry><entry><title type="html">图</title><link href="https://lixiao90s.github.io/posts/datastructure10/" rel="alternate" type="text/html" title="图" /><published>2020-07-02T14:16:00+08:00</published><updated>2020-07-02T14:16:00+08:00</updated><id>https://lixiao90s.github.io/posts/datastructure10</id><content type="html" xml:base="https://lixiao90s.github.io/posts/datastructure10/"><![CDATA[<p>1.在线性表中，数据元素之间是被串起来的，仅有线性关系，每个数据元素只有开一个直接前驱和一个直接后继 2.在树形结构中，数据元素之间有明显的层次关系，并且在每一层上的数据元素可能和下一层多个元素相关，但只能和上一层一个元素相关。
+<h4 id="背包问题">背包问题</h4>]]></content><author><name>晓</name></author><category term="数据结构与算法" /><category term="java" /><summary type="html"><![CDATA[常用算法]]></summary></entry><entry><title type="html">图</title><link href="http://localhost:4000/posts/datastructure10/" rel="alternate" type="text/html" title="图" /><published>2020-07-02T14:16:00+08:00</published><updated>2020-07-02T14:16:00+08:00</updated><id>http://localhost:4000/posts/datastructure10</id><content type="html" xml:base="http://localhost:4000/posts/datastructure10/"><![CDATA[<p>1.在线性表中，数据元素之间是被串起来的，仅有线性关系，每个数据元素只有开一个直接前驱和一个直接后继 2.在树形结构中，数据元素之间有明显的层次关系，并且在每一层上的数据元素可能和下一层多个元素相关，但只能和上一层一个元素相关。
 这两种结构只能表达一对多的关系，当遇到多对多关系，就需要图。</p>
 
 <p>图是由有穷非空集合和顶点之间变得集合组成，通常表示为：G（v,e）,G 表示一个图，V 是图 G 中顶点的集合，E
