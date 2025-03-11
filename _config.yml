@@ -12,9 +12,6 @@ lang: zh-CN
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Shanghai
 
-# Set the build destination
-destination: ./build
-
 # Feed settings
 feed:
   path: feed.xml
