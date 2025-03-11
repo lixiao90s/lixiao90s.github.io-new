@@ -1,4 +1,32 @@
 ---
 layout: home
-# Index page
+refactor: true
+panel_includes:
+  - toc
+tail_includes:
+  - related-posts
+  - post-nav
+  - comments
+
+# Home page don't show the sidebar by default
+sidebar:
+  home: true
 ---
+
+<!-- _posts -->
+
+<div class="row">
+  <div class="col-12">{% include refactor-content.html lang=lang %}</div>
+</div>
+
+<!-- _layouts -->
+
+{% if layout.tail_includes %}
+<div class="row">
+  <div class="col-12">
+    {% for _include in layout.tail_includes %} {% assign _include_path =
+    _include | prepend: '_includes/' | append: '.html' %} {% include {{
+    _include_path }} lang=lang %} {% endfor %}
+  </div>
+</div>
+{% endif %}
