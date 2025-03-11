@@ -3,7 +3,8 @@ name: Deploy Jekyll site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches:
+      - main # 设置要监听的分支
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,21 +27,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        run: |
-          bundle exec jekyll build
+      - name: Build site
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./build
 
   # Deployment job
   deploy:
