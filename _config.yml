@@ -21,7 +21,7 @@ feed:
 
 title: 晓的博客 # the main title
 
-tagline: 技术博客 # it will display as the sub-title
+tagline: 学习&工作记录 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   记录学习 工作。
