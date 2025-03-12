@@ -4,45 +4,23 @@ date: 2025-03-12 10:44:29 +0800
 categories:
 - Springboot
 tags:
-- mybatis
-- 5.4 AOP整合配置
-- 1.2 系统要求
-- java
-- 四、SpringBoot3整合Druid数据源
-- boot
-- 2.1 统一配置管理概述
-- 3.3 静态资源处理
-- maven
-- 5.1 MyBatis整合步骤
-- 2.5 多环境配置和使用
-- javascript
-- database
-- 1.1 SpringBoot3简介
-- 1.3 快速入门
-- 五、SpringBoot3整合Mybatis
-- 3.2 web相关配置
-- 6.1 添加打包插件
-- 5.3 声明式事务整合配置
-- 6.3 命令启动和参数说明
-- framework
-- 二、SpringBoot3配置文件
 - spring
-- mvc
-- 2.3 YAML配置文件使用
-- 3.1 实现过程
-- 一、SpringBoot3介绍
-- 六、SpringBoot3项目打包和运行
 - sql
-- 5.2 Mybatis整合实践
-- 2.2 属性配置文件使用
-- 三、SpringBoot3整合SpringMVC
-- 2.4 批量配置文件注入
-- 6.2 执行打包
-- 3.4 自定义拦截器(SpringMVC配置)
-- 1.4 入门总结
+- framework
+- database
+- mybatis
+- javascript
+- java
+- mvc
+- maven
+- boot
 author: lixiao
 layout: post
+toc: true
 ---
+
+* TOC
+{:toc}
 
 # Springboot
 

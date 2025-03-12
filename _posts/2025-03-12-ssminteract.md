@@ -4,52 +4,29 @@ date: 2025-03-12 10:44:29 +0800
 categories:
 - SSM整合
 tags:
-- 3.2.1 前端环境搭建
-- mybatis
-- 1.2.5 第五问：IoC初始化方式和配置位置？
-- java
-- 2.5 容器初始化配置类
-- '3.1.2接口分析  '
-- 2.3 业务层配置编写(AOP / TX整合）
-- 3.2.2 导入前端程序
-- 三、《任务列表案例》前端程序搭建和运行
-- maven
-- 2.2 控制层配置编写(SpringMVC整合)
-- 2.4 持久层配置编写(MyBatis整合)
-- javascript
-- vue
-- 1.2.3 第三问：IoC容器之间关系和调用方向？
-- 4.3 前后联调
-- 3.3 启动测试
-- database
-- 3.1 整合案例介绍和接口分析
-- kubernetes
-- 二、SSM整合配置实战
-- 4.2 功能实现
-- 1.1 什么是SSM整合？
-- 1.2.2 第二问：每个IoC容器对应哪些类型组件？
-- 2.1 依赖整合和添加
-- angular
-- 1.2.4 第四问：具体多少配置类以及对应容器关系？
-- docker
-- 四、《任务列表案例》后端程序实现和测试
-- 3.1.1 案例功能预览
-- framework
-- 4.1  准备工作
-- mvc
-- 一、SSM整合理解
-- git
-- sql
-- react
-- 1.2 SSM整合核心问题明确
-- python
-- 2.6 整合测试
-- 3.2 前端工程导入
 - spring
-- 1.2.1 第一问：SSM整合需要几个IoC容器？
+- vue
+- framework
+- sql
+- database
+- react
+- git
+- kubernetes
+- mybatis
+- javascript
+- java
+- docker
+- python
+- mvc
+- maven
+- angular
 author: lixiao
 layout: post
+toc: true
 ---
+
+* TOC
+{:toc}
 
 # SSM整合
 
